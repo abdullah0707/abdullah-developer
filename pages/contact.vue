@@ -11,7 +11,7 @@
     <div class=" flex flex-col h-100 justify-center px-6 lg:px-8 ">
       <div class=" lg:mt-10 mt-2 sm:mx-auto sm:w-full sm:max-w-sm z-10">
 
-        <form class="space-y-10 text-sm mx-2" action="#" method="POST" @submit.prevent="SubmitForm(form)">
+        <form class="space-y-10 text-sm mx-2" action="#" method="POST" @submit="SubmitForm(form)">
           <div class="user-box">
             <input type="name" name="name" id="name" v-model="form.name" required
               class="mt-1 px-3 py-2   border shadow-sm border-slate-300 placeholder-slate-400 focus:outline-none focus:border-yellow-400 focus:ring-yellow-400 block w-full  sm:text-sm focus:ring-5" />
@@ -24,8 +24,8 @@
 
           <div class="user-box">
             <input type="email" name="email" id="email" v-model="form.email" required
-              class="mt-1 px-3 py-2 border shadow-sm border-slate-300 placeholder-slate-400 focus:outline-none focus:border-yellow-400 focus:ring-yellow-400 block w-full  sm:text-sm focus:ring-5"" />
-            <label for=" email">
+              class="mt-1 px-3 py-2 border shadow-sm border-slate-300 placeholder-slate-400 focus:outline-none focus:border-yellow-400 focus:ring-yellow-400 block w-full  sm:text-sm focus:ring-5" />
+            <label for="email">
             <span class="after:content-['*'] after:ml-0.5 after:text-red-500 block text-sm font-bold ">
               Email
             </span>
