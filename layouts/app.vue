@@ -1,7 +1,7 @@
 <template>
    <div style="font-family: 'Allerta Stencil', sans-serif;">
       <Navbar />
-      <div class="bg-text-container w-full overflow-hidden">
+      <!-- <div class="bg-text-container w-full overflow-hidden">
          <div class="animate-text">
             <span class="text-animate-bg">Front-End Developer&nbsp;</span>
             <span class="text-animate-bg">abdullah mohamed&nbsp;</span>
@@ -14,7 +14,9 @@
             <span class="text-animate-bg">Front-End Developer&nbsp;</span>
             <span class="text-animate-bg">abdullah mohamed&nbsp;</span>
          </div>
-      </div>
+      </div> -->
+      <div id="particles-js" class="bg-text-container w-full overflow-hidden"></div>
+      <slot />
       <div class="_social-links">
          <ul class="_links-list">
             <li class="_social-link">
@@ -39,11 +41,18 @@
             </li>
          </ul>
       </div>
-      <slot />
    </div>
 </template>
 
 <script setup>
-
+useHead({
+   script: [
+      {
+         src: `/code.js`,
+         tagPosition: 'bodyClose',
+         defer: true
+      },
+   ],
+})
 </script>
 <style></style>

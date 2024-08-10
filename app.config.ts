@@ -1,8 +1,17 @@
 export default defineAppConfig({
    ui: {
-      notifications: {
-         // Show toasts at the top right of the screen
-         position: 'top-0 right-0'
-      }
-   },
+      header: {
+         links: {
+            trailingIcon: {
+               name: 'i-ph-caret-down' // Defaults to `ui.icons.chevron`
+            }
+         },
+         button: {
+            icon: {
+               open: 'i-ph-list',
+               close: 'i-ph-x'
+            }
+         },
+      },
+   }
 })

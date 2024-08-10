@@ -23,7 +23,7 @@
               </ul>
             </div>
           </h1>
-          <div class="text-xl">
+          <div class="text-sm md:text-xl">
             <p class="p-3">
               Live in Egypt,Cairo. I have a serious passion for UI effects,
               creating intuitive, dynamic user experiences. Well-organised person,

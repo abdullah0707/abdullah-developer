@@ -1,15 +1,18 @@
 // https://nuxt.com/docs/api/configuration/nuxt-config
 export default ({
+   extends: ['@nuxt/ui-pro'],
    modules: ["@nuxt/ui"],
 
    ui: {
       global: true,
    },
+
    nitor: {
       prerender: {
          autoSubfolderIndex: false,
       }
    },
+
    app: {
       head: {
          title: `Abdullah | `,
@@ -28,19 +31,22 @@ export default ({
             },
             {
                rel: 'stylesheet',
-               href: 'https://fonts.googleapis.com/css2?family=Cairo:wght@200..1000&display=swap',
+               href: 'https://fonts.googleapis.com/css2?family=Exo:ital,wght@0,100..900;1,100..900&display=swap',
             },
             {
                rel: 'stylesheet',
                href: 'https://fonts.googleapis.com/css2?family=Allerta+Stencil&display=swap',
             },
          ],
-         script: [{ src: 'https://smtpjs.com/v3/smtp.js' }]
+         script: [
+            { src: 'https://smtpjs.com/v3/smtp.js' },
+            { src: '/animet.js', tagPosition: 'bodyClose' },
+            { src: '/code.js', tagPosition: 'bodyClose' },
+         ]
       },
    },
 
    css: ['~/assets/css/tailwind.css', '~/assets/css/navbar.css', '~/assets/css/style.css', '~/assets/css/projects.css'],
-
    postcss: {
       plugins: {
          tailwindcss: {},
@@ -50,3 +56,5 @@ export default ({
 
    compatibilityDate: "2024-07-21"
 });
+
+// '~/assets/js/code.js', '~/assets/js/jQuery.js', '~/assets/js/animet.js',
