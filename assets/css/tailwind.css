@@ -10,12 +10,10 @@ body {
   margin: 0;
   outline: 0 none;
   padding: 0;
-  /* background-image: url(../image/programming-coding.jpg);
-   background-size: cover; */
   height: 100%;
-  /* background-color: #0f0e0e; */
-  background-color: rgb(var(--ui-background) / var(--tw-bg-opacity));
+  background-color: #111826;
 }
+
 * {
   font-family: "Exo", sans-serif;
   font-optical-sizing: auto;
@@ -24,11 +22,6 @@ body {
 
 *::-webkit-scrollbar {
   display: none;
-}
-
-.bg-background {
-  --tw-bg-opacity: 1;
-  background-color: rgb(var(--ui-background) / var(--tw-bg-opacity)) !important;
 }
 
 .custem {

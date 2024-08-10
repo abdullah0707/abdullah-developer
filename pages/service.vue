@@ -6,8 +6,8 @@
          </h1>
          <hr width="50px" class="border-4 mx-auto rounded-full border-amber-400 mb-10">
          <div class="grid grid-flow-row-dense md:grid-cols-2 grid-cols-1">
-            <div class="m-4 bg-slate-900">
-               <ULandingCard color="amber">
+            <div class="m-4 bg-transparent z-10">
+               <UCard>
                   <h5 class="text-amber-400">
                      UX Research
                   </h5>
@@ -16,10 +16,10 @@
                      the
                      user audience, working on user stories, competitive analysis and much more.
                   </p>
-               </ULandingCard>
+               </UCard>
             </div>
-            <div class="m-4 bg-slate-900">
-               <ULandingCard color="amber">
+            <div class="m-4 bg-transparent z-10">
+               <UCard>
                   <h5 class="text-amber-400">
                      UX Auditing
                   </h5>
@@ -28,13 +28,13 @@
                      highlight
                      most of the issues in your product. From there, we can take it further and fix all issues.
                   </p>
-               </ULandingCard>
+               </UCard>
             </div>
          </div>
 
          <div class="grid grid-flow-row-dense md:grid-cols-5 grid-cols-1">
-            <div class="m-4 bg-slate-900 col-span-2 card">
-               <ULandingCard color="amber">
+            <div class="m-4 bg-transparent z-10 col-span-2 card">
+               <UCard>
                   <h5 class="text-amber-400">
                      UX Consultation
                   </h5>
@@ -43,10 +43,10 @@
                      fits
                      your business and your budget.
                   </p>
-               </ULandingCard>
+               </UCard>
             </div>
-            <div class="m-4 bg-slate-900 col-span-3">
-               <ULandingCard color="amber">
+            <div class="m-4 bg-transparent z-10 col-span-3">
+               <UCard>
                   <h5 class="text-amber-400">
                      Front End Development
                   </h5>
@@ -58,12 +58,12 @@
                      want
                      us to do both design and code, we’re happy to do so.
                   </p>
-               </ULandingCard>
+               </UCard>
             </div>
          </div>
          <div class="grid grid-flow-row-dense md:grid-cols-5 grid-cols-1">
-            <div class="m-4 bg-slate-900 col-span-3">
-               <ULandingCard color="amber">
+            <div class="m-4 bg-transparent z-10 col-span-3">
+               <UCard>
                   <h5 class="text-amber-400">
                      Mobile Apps Design
                   </h5>
@@ -73,10 +73,10 @@
                      We
                      will work on the app design from scratch to final tested prototype.
                   </p>
-               </ULandingCard>
+               </UCard>
             </div>
-            <div class="m-4 col-span-2">
-               <ULandingCard color="amber">
+            <div class="m-4 bg-transparent col-span-2 z-10">
+               <UCard>
                   <h5 class="text-amber-400">
                      Responsive Web Design
                   </h5>
@@ -85,7 +85,7 @@
                      experience
                      that works across different screen sizes.
                   </p>
-               </ULandingCard>
+               </UCard>
             </div>
          </div>
       </div>

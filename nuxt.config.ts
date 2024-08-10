@@ -1,6 +1,9 @@
 // https://nuxt.com/docs/api/configuration/nuxt-config
 export default ({
-   extends: ['@nuxt/ui-pro'],
+   // extends: ['@nuxt/ui-pro'],
+   // uiPro: {
+   //    routerOptions: false
+   // },
    modules: ["@nuxt/ui"],
 
    ui: {
