@@ -5,7 +5,7 @@
 }
 @media (min-width: 425px) {
   .custom-section {
-    padding: 25% 5% 0% !important;
+    padding: 25% 7% 0% !important;
   }
 }
 @media (min-width: 700px) {
@@ -15,17 +15,17 @@
 }
 @media (min-width: 1000px) {
   .custom-section {
-    padding: 9% 5% 0% !important;
+    padding: 9% 4% 0% !important;
   }
 }
 @media (min-width: 1400px) {
   .custom-section {
-    padding: 5% 5% 0% !important;
+    padding: 5% 4% 0% !important;
   }
 }
 @media (min-width: 1500px) {
   .custom-section {
-    padding: 2% 5% 0% !important;
+    padding: 2% 4% 0% !important;
   }
 }
 

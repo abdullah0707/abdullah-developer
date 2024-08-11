@@ -1,6 +1,6 @@
 <template>
   <div class="custom-section h-screen overflow-scroll">
-    <div class="mt-3 z-10">
+    <div class="mt-3 absolute z-10 md:w-11/12 w-10/12 ">
       <div class="flex lg:flex-row max-lg:flex-col-reverse items-center">
         <div class="basis-1/2 max-lg:basis-3/4 text-white ">
           <h1
@@ -23,14 +23,14 @@
               </ul>
             </div>
           </h1>
-          <div class="text-sm md:text-xl">
-            <p class="p-3">
-              Live in Egypt,Cairo. I have a serious passion for UI effects,
-              creating intuitive, dynamic user experiences. Well-organised person,
-              problem solver, independent employee with high attention to detail.
-              I can professionally design and develop website interfaces using a
-              framework or static code and also responsive to all screens and
-              taking into account search engines.
+          <div class="text-sm md:text-base ">
+            <p class="p-3 font-medium leading-8">
+              Fueled by a deep passion for creating seamless and visually captivating user experiences,
+              I specialize as
+              a front-end developer in crafting responsive, accessible, and high-performing web applications tailored to
+              the unique needs of each client. With extensive expertise in HTML, CSS, JavaScript, front-end frameworks
+              like Vue.Js and Nuxt.Js, and modern web development tools, I'm dedicated to delivering cutting-edge
+              digital solutions that engage and delight users.
             </p>
             <div class="flex justify-between max-lg:flex-col slide-in-bottom text-lg">
               <p class="text-yellow-400">
@@ -48,37 +48,39 @@
           </div>
         </div>
         <div class="basis-1/2 max-lg:basis-1/4 flex justify-center items-center slide-in-right z-0">
-          <img class="w-6/12 max-w-min rounded-full max-md:m-5 bg-stone-500 user mb-6" src="../assets/image/p.jpg" />
+          <img class="w-5/12 max-w-min rounded-full max-md:m-5 bg-stone-500 user mb-6" src="../assets/image/p.jpg" />
         </div>
       </div>
-      <h2 class="text-center font-semibold text-4xl text-white mb-4 mt-10 md:mt-10 lg:mt-0">
-        MY skills
-      </h2>
-      <div class="flex lg:flex-row max-lg:flex-col items-center gap-10 w-full justify-between text-white">
+      <!-- <h2 class="text-center font-semibold text-6xl text-white mb-4 mt-10 md:mt-10 lg:mt-0">
+        My Skills
+      </h2> -->
+      <div class="flex lg:flex-row max-lg:flex-col items-center gap-10 justify-between w-full mt-10">
         <div class="w-11/12 max-w-full">
-          <p>
-            Technical skills
+          <p class="text-xl mb-4 text-white font-medium">
+            Technical Skills
+            <hr class="w-9 border-yellow-400 border-2 rounded-r-lg">
           </p>
           <template v-for="technicalSkill in technicalSkills" :key="technicalSkill.name">
-            <p class="label">
-              <span class="effect-shine text-xl">
+            <p class="label absolute text-sm md:text-base text-cool-300">
+              <span class="font-bold">
                 {{ technicalSkill.name }}
               </span>
             </p>
-            <UProgress class="my-2" color="white" :indicator="false" :value="technicalSkill.i" />
+            <UProgress class="my-4" color="amber" indicator :value="technicalSkill.i" />
           </template>
         </div>
         <div class="w-11/12 max-w-full">
-          <p>
+          <p class="text-xl mb-4 text-white font-medium">
             Personal Skills
+            <hr class="w-9 border-yellow-400 border-2 rounded-r-lg">
           </p>
           <template v-for="personalSkill in personalSkills" :key="personalSkill.name">
-            <p class="label">
-              <span class="effect-shine text-xl">
+            <p class="label absolute text-xs md:text-base text-cool-300">
+              <span class="font-bold">
                 {{ personalSkill.name }}
               </span>
             </p>
-            <UProgress class="my-2" color="white" :indicator="false" :value="personalSkill.i" />
+            <UProgress class="my-4" color="amber" indicator :value="personalSkill.i" />
           </template>
         </div>
       </div>

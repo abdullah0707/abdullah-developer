@@ -1,6 +1,6 @@
 <template>
   <div class="custom-section h-screen overflow-scroll">
-    <div class="w-full text-center mt-3">
+    <div class="w-full text-center mt-3 absolute z-10">
       <input class="checkbox-all" id="all" type="radio" name="checkbox" checked="" />
       <label for="all">
         <span style="mix-blend-mode: difference"> all </span>
