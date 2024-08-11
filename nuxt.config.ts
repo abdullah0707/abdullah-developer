@@ -47,8 +47,6 @@ export default ({
          ],
          script: [
             { src: 'https://smtpjs.com/v3/smtp.js' },
-            { src: 'https://unpkg.co/gsap@3/dist/gsap.min.js' },
-            { src: 'https://cdnjs.cloudflare.com/ajax/libs/chroma-js/2.4.2/chroma.min.js' },
             { src: '/animet.js', tagPosition: 'bodyClose' },
             { src: '/code.js', tagPosition: 'bodyClose' },
          ]
