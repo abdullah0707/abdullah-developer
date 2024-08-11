@@ -15,7 +15,7 @@
             <span class="text-animate-bg">abdullah mohamed&nbsp;</span>
          </div>
       </div> -->
-      <div id="particles-js" class="bg-text-container w-full overflow-hidden"></div>
+      <div id="particles-js" class="bg-text-container w-full h-full overflow-hidden"></div>
       <slot />
       <div class="_social-links">
          <ul class="_links-list">

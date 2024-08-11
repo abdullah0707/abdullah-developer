@@ -1,5 +1,5 @@
 <template>
-  <div class="navbar-action" :class="{ active: isActive }" @click="isActive = !isActive">
+  <div class="navbar-action absolute z-50" :class="{ active: isActive }" @click="isActive = !isActive">
     <div class="menu-icon hover-target">
       <span class="menu-icon__line menu-icon__line-left"></span>
       <span class="menu-icon__line"></span>

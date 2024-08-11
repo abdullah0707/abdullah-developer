@@ -1,13 +1,13 @@
 <template>
    <div class="custom-section overflow-scroll h-screen">
       <div class="my-auto font-bold">
-         <h1 class="text-center font-semibold text-white text-7xl pt-10 pb-10">
+         <h1 class="text-center font-semibold text-white text-7xl py-10">
             Service
          </h1>
          <hr width="50px" class="border-4 mx-auto rounded-full border-amber-400 mb-10">
          <div class="grid grid-flow-row-dense md:grid-cols-2 grid-cols-1">
-            <div class="m-4 bg-transparent z-10">
-               <UCard>
+            <div class="m-4 bg-transparent z-10 glow-button">
+               <div class="card p-6 border-slate-500 rounded-md">
                   <h5 class="text-amber-400">
                      UX Research
                   </h5>
@@ -16,10 +16,10 @@
                      the
                      user audience, working on user stories, competitive analysis and much more.
                   </p>
-               </UCard>
+               </div>
             </div>
-            <div class="m-4 bg-transparent z-10">
-               <UCard>
+            <div class="m-4 bg-transparent z-10 ">
+               <div class="card p-6 border-slate-500 rounded-md">
                   <h5 class="text-amber-400">
                      UX Auditing
                   </h5>
@@ -28,13 +28,13 @@
                      highlight
                      most of the issues in your product. From there, we can take it further and fix all issues.
                   </p>
-               </UCard>
+               </div>
             </div>
          </div>
 
          <div class="grid grid-flow-row-dense md:grid-cols-5 grid-cols-1">
             <div class="m-4 bg-transparent z-10 col-span-2 card">
-               <UCard>
+               <div class="card p-6 border-slate-500 rounded-md">
                   <h5 class="text-amber-400">
                      UX Consultation
                   </h5>
@@ -43,10 +43,10 @@
                      fits
                      your business and your budget.
                   </p>
-               </UCard>
+               </div>
             </div>
             <div class="m-4 bg-transparent z-10 col-span-3">
-               <UCard>
+               <div class="card p-6 border-slate-500 rounded-md">
                   <h5 class="text-amber-400">
                      Front End Development
                   </h5>
@@ -58,12 +58,12 @@
                      want
                      us to do both design and code, we’re happy to do so.
                   </p>
-               </UCard>
+               </div>
             </div>
          </div>
          <div class="grid grid-flow-row-dense md:grid-cols-5 grid-cols-1">
             <div class="m-4 bg-transparent z-10 col-span-3">
-               <UCard>
+               <div class="card p-6 border-slate-500 rounded-md">
                   <h5 class="text-amber-400">
                      Mobile Apps Design
                   </h5>
@@ -73,10 +73,10 @@
                      We
                      will work on the app design from scratch to final tested prototype.
                   </p>
-               </UCard>
+               </div>
             </div>
             <div class="m-4 bg-transparent col-span-2 z-10">
-               <UCard>
+               <div class="card p-6 border-slate-500 rounded-md">
                   <h5 class="text-amber-400">
                      Responsive Web Design
                   </h5>
@@ -85,7 +85,7 @@
                      experience
                      that works across different screen sizes.
                   </p>
-               </UCard>
+               </div>
             </div>
          </div>
       </div>

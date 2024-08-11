@@ -1,8 +1,8 @@
 <template>
-  <div class="custom-section mx-auto h-screen overflow-scroll">
-    <div class="mt-3">
+  <div class="custom-section h-screen overflow-scroll">
+    <div class="mt-3 z-10">
       <div class="flex lg:flex-row max-lg:flex-col-reverse items-center">
-        <div class="basis-1/2 max-lg:basis-3/4 text-white custem">
+        <div class="basis-1/2 max-lg:basis-3/4 text-white ">
           <h1
             class="uppercase font-semibold flex text-4xl lg:text-2xl text-white max-sm:text-sm slide-in-top items-center">
             <div class="content__container">
@@ -51,7 +51,7 @@
           <img class="w-6/12 max-w-min rounded-full max-md:m-5 bg-stone-500 user mb-6" src="../assets/image/p.jpg" />
         </div>
       </div>
-      <h2 class="text-center font-semibold text-6xl text-white mb-4 mt-10 md:mt-10 lg:mt-0">
+      <h2 class="text-center font-semibold text-4xl text-white mb-4 mt-10 md:mt-10 lg:mt-0">
         MY skills
       </h2>
       <div class="flex lg:flex-row max-lg:flex-col items-center gap-10 w-full justify-between text-white">

@@ -34,6 +34,10 @@ export default ({
             },
             {
                rel: 'stylesheet',
+               href: 'https://cdnjs.cloudflare.com/ajax/libs/inter-ui/3.19.3/inter.css',
+            },
+            {
+               rel: 'stylesheet',
                href: 'https://fonts.googleapis.com/css2?family=Exo:ital,wght@0,100..900;1,100..900&display=swap',
             },
             {
@@ -43,6 +47,8 @@ export default ({
          ],
          script: [
             { src: 'https://smtpjs.com/v3/smtp.js' },
+            { src: 'https://unpkg.co/gsap@3/dist/gsap.min.js' },
+            { src: 'https://cdnjs.cloudflare.com/ajax/libs/chroma-js/2.4.2/chroma.min.js' },
             { src: '/animet.js', tagPosition: 'bodyClose' },
             { src: '/code.js', tagPosition: 'bodyClose' },
          ]

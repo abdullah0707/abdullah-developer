@@ -1,9 +1,9 @@
 <template>
   <div class="custom-section h-screen overflow-scroll">
-    <h1 class="text-center font-semibold text-white md:text-6xl text-4xl py-3">
+    <h1 class="text-center font-semibold text-white md:text-6xl text-4xl py-10">
       Contact Me
     </h1>
-    <hr width="50px" class="border-4 mx-auto rounded-full border-amber-400">
+    <hr width="50px" class="border-4 mx-auto rounded-full border-amber-400 mb-10">
     <p class="text-center font-semibold text-white md:text-lg text-sm py-3 mx-auto w-full md:w-3/6">
       Whether you're ready to transform your digital presence or need guidance along the way, we're here to help. Reach
       out to our friendly team of experts, and let's unlock new possibilities together.
@@ -26,9 +26,9 @@
             <input type="email" name="email" id="email" v-model="form.email" required
               class="mt-1 px-3 py-2 border shadow-sm border-slate-300 placeholder-slate-400 focus:outline-none focus:border-yellow-400 focus:ring-yellow-400 block w-full  sm:text-sm focus:ring-5" />
             <label for="email">
-            <span class="after:content-['*'] after:ml-0.5 after:text-red-500 block text-sm font-bold ">
-              Email
-            </span>
+              <span class="after:content-['*'] after:ml-0.5 after:text-red-500 block text-sm font-bold ">
+                Email
+              </span>
             </label>
           </div>
           <div class="user-box">
@@ -62,12 +62,12 @@
 
           <div>
             <button
-              class="flex w-full justify-center btn p-4 relative border-b-2 uppercase text-amber-300 shadow bg-transparent hover:delay-[.5s] transition-all duration-500 hover:text-black before:absolute before:left-0 before:bottom-0 before:h-[3px] before:w-0 before:transition-all before:duration-500 before:bg-amber-300 before:hover:w-full after:absolute after:left-0 after:bottom-0 after:h-0 after:w-full after:transition-all after:duration-500 after:bg-amber-300 after:hover:h-full after:text-black after:-z-10 after:hover:delay-[0.4s] font-bold">
+              class="flex w-full justify-center btn p-4 relative border-b-2 uppercase text-amber-300 shadow bg-transparent hover:delay-[.5s] transition-all duration-500 hover:text-black before:absolute before:left-0 before:bottom-0 before:h-[3px] before:w-0 before:transition-all before:duration-500 before:bg-amber-300 before:hover:w-full after:absolute after:left-0 after:bottom-0 after:h-0 after:w-full after:transition-all after:duration-500 after:bg-amber-300 after:hover:h-full after:text-black after:-z-10 after:hover:delay-[0.4s] font-bold ">
               <template v-if="waiting">
                 <i class="fa-solid fa-spinner fa-spin-pulse p-1"></i>
                 Loading...
               </template>
-              <span v-if="!waiting" >
+              <span v-if="!waiting" class="heartbeat">
                 Sand Message
               </span>
             </button>
