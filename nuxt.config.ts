@@ -48,7 +48,6 @@ export default ({
          script: [
             { src: 'https://smtpjs.com/v3/smtp.js' },
             { src: '/animet.js', tagPosition: 'bodyClose' },
-            { src: '/code.js', tagPosition: 'bodyClose' },
          ]
       },
    },
@@ -63,5 +62,3 @@ export default ({
 
    compatibilityDate: "2024-07-21"
 });
-
-// '~/assets/js/code.js', '~/assets/js/jQuery.js', '~/assets/js/animet.js',
