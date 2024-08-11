@@ -1,9 +1,5 @@
 // https://nuxt.com/docs/api/configuration/nuxt-config
 export default ({
-   // extends: ['@nuxt/ui-pro'],
-   // uiPro: {
-   //    routerOptions: false
-   // },
    modules: ["@nuxt/ui"],
 
    ui: {
@@ -31,10 +27,6 @@ export default ({
                integrity: "sha512-MV7K8+y+gLIBoVD59lQIYicR65iaqukzvf/nwasF0nqhPay5w/9lJmVM2hMDcnK1OnMGCdVK+iQrJ7lzPJQd1w==",
                crossorigin: "anonymous",
                referrerpolicy: "no-referrer"
-            },
-            {
-               rel: 'stylesheet',
-               href: 'https://cdnjs.cloudflare.com/ajax/libs/inter-ui/3.19.3/inter.css',
             },
             {
                rel: 'stylesheet',

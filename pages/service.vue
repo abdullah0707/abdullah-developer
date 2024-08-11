@@ -6,8 +6,8 @@
          </h1>
          <hr width="50px" class="border-4 mx-auto rounded-full border-amber-400 mb-10">
          <div class="grid grid-flow-row-dense md:grid-cols-2 grid-cols-1">
-            <div class="m-4 bg-transparent z-10 glow-button">
-               <div class="card p-6 border-slate-500 rounded-md">
+            <div class="m-4 bg-transparent z-10">
+               <div class="card p-6 rounded-md">
                   <h5 class="text-amber-400">
                      UX Research
                   </h5>
@@ -19,7 +19,7 @@
                </div>
             </div>
             <div class="m-4 bg-transparent z-10 ">
-               <div class="card p-6 border-slate-500 rounded-md">
+               <div class="card p-6 rounded-md">
                   <h5 class="text-amber-400">
                      UX Auditing
                   </h5>
@@ -34,7 +34,7 @@
 
          <div class="grid grid-flow-row-dense md:grid-cols-5 grid-cols-1">
             <div class="m-4 bg-transparent z-10 col-span-2 card">
-               <div class="card p-6 border-slate-500 rounded-md">
+               <div class="card p-6 rounded-md">
                   <h5 class="text-amber-400">
                      UX Consultation
                   </h5>
@@ -46,7 +46,7 @@
                </div>
             </div>
             <div class="m-4 bg-transparent z-10 col-span-3">
-               <div class="card p-6 border-slate-500 rounded-md">
+               <div class="card p-6 rounded-md">
                   <h5 class="text-amber-400">
                      Front End Development
                   </h5>
@@ -63,7 +63,7 @@
          </div>
          <div class="grid grid-flow-row-dense md:grid-cols-5 grid-cols-1">
             <div class="m-4 bg-transparent z-10 col-span-3">
-               <div class="card p-6 border-slate-500 rounded-md">
+               <div class="card p-6 rounded-md">
                   <h5 class="text-amber-400">
                      Mobile Apps Design
                   </h5>
@@ -76,7 +76,7 @@
                </div>
             </div>
             <div class="m-4 bg-transparent col-span-2 z-10">
-               <div class="card p-6 border-slate-500 rounded-md">
+               <div class="card p-6 rounded-md">
                   <h5 class="text-amber-400">
                      Responsive Web Design
                   </h5>

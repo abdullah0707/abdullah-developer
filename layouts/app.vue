@@ -45,15 +45,6 @@
 </template>
 
 <script setup>
-useHead({
-   script: [
-      {
-         src: `/code.js`,
-         tagPosition: 'bodyClose',
-         defer: true
-      },
-   ],
-})
 onMounted(() => {
    // child.value will hold an instance of <Child />
    particlesJS("particles-js", {
