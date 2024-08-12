@@ -11,7 +11,7 @@
     <div class=" flex flex-col h-100 justify-center px-6 lg:px-8 ">
       <div class=" lg:mt-10 mt-2 sm:mx-auto sm:w-full sm:max-w-sm z-10">
 
-        <form class="space-y-10 text-sm mx-2" action="#" method="POST" @submit="SubmitForm(form)">
+        <form class="space-y-10 text-sm mx-2" action="#" method="POST" @submit.prevent="SubmitForm(form)">
           <div class="user-box">
             <input type="name" name="name" id="name" v-model="form.name" required
               class="mt-1 px-3 py-2   border shadow-sm border-slate-300 placeholder-slate-400 focus:outline-none focus:border-yellow-400 focus:ring-yellow-400 block w-full  sm:text-sm focus:ring-5" />
@@ -61,7 +61,7 @@
           </div>
 
           <div>
-            <button
+            <button type="submit"
               class="flex w-full justify-center btn p-4 relative border-b-2 uppercase text-amber-300 shadow bg-transparent hover:delay-[.5s] transition-all duration-500 hover:text-black before:absolute before:left-0 before:bottom-0 before:h-[3px] before:w-0 before:transition-all before:duration-500 before:bg-amber-300 before:hover:w-full after:absolute after:left-0 after:bottom-0 after:h-0 after:w-full after:transition-all after:duration-500 after:bg-amber-300 after:hover:h-full after:text-black after:-z-10 after:hover:delay-[0.4s] font-bold ">
               <template v-if="waiting">
                 <i class="fa-solid fa-spinner fa-spin-pulse p-1"></i>
