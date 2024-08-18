@@ -1,5 +1,6 @@
 <template>
    <div style="font-family: 'Allerta Stencil', sans-serif;">
+      <img class="w-24 mx-auto hidden absolute top-0 right-0" src="../assets/image/logo.png" alt="logo.png">
       <Navbar />
       <!-- <div class="bg-text-container w-full overflow-hidden">
          <div class="animate-text">

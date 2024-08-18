@@ -31,7 +31,7 @@
   margin-left: 10px;
   -webkit-transition: all 0.2s ease;
   transition: all 0.2s ease;
-  backdrop-filter: sepia(90%);
+  /* backdrop-filter: sepia(90%); */
 }
 
 [type="radio"]:checked + label:after,
@@ -102,8 +102,6 @@
 
 .checkbox-all:checked ~ .cards .project.js,
 .checkbox-all:checked ~ .cards .project.html,
-.checkbox-all:checked ~ .cards .project.vue,
-.checkbox-all:checked ~ .cards .project.fullter,
 .checkbox-js:checked ~ .cards .project.js,
 .checkbox-html:checked ~ .cards .project.html,
 .checkbox-vue:checked ~ .cards .project.vue,

@@ -1,11 +1,14 @@
 // https://nuxt.com/docs/api/configuration/nuxt-config
 export default ({
-   modules: ["@nuxt/ui"],
+   modules: ["@nuxt/ui", "@stefanobartoletti/nuxt-social-share"],
 
    ui: {
       global: true,
    },
-
+   socialShare: {
+      baseUrl: 'https://abdullah-developer.pages.dev/projects' // required!
+      // other optional module options
+   },
    nitor: {
       prerender: {
          autoSubfolderIndex: false,
@@ -45,6 +48,7 @@ export default ({
    },
 
    css: ['~/assets/css/tailwind.css', '~/assets/css/navbar.css', '~/assets/css/style.css', '~/assets/css/projects.css'],
+
    postcss: {
       plugins: {
          tailwindcss: {},

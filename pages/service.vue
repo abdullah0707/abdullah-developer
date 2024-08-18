@@ -8,10 +8,10 @@
          <div class="grid grid-flow-row-dense md:grid-cols-2 grid-cols-1">
             <div class="m-4 bg-transparent z-10">
                <div class="card p-6 rounded-md">
-                  <h5 class="text-amber-400">
-                     UX Research
+                  <h5 class="text-amber-400 flex items-center">
+                     <i class="fa-solid fa-u fa-lg pb-1 pe-0.5"></i>X Research
                   </h5>
-                  <p class="text-[15px] text-gray-500 dark:text-gray-400 mt-1">
+                  <p class="text-[15px] ps-2 border-s-2 text-gray-500 dark:text-gray-400 mt-1">
                      It’s important to research deeply for the product you want to build. We help in that by defining
                      the
                      user audience, working on user stories, competitive analysis and much more.
@@ -20,10 +20,10 @@
             </div>
             <div class="m-4 bg-transparent z-10 ">
                <div class="card p-6 rounded-md">
-                  <h5 class="text-amber-400">
-                     UX Auditing
+                  <h5 class="text-amber-400 flex items-center">
+                     <i class="fa-solid fa-u fa-lg pb-1 pe-0.5"></i>X Auditing
                   </h5>
-                  <p class="text-[15px] text-gray-500 dark:text-gray-400 mt-1">
+                  <p class="text-[15px] ps-2 border-s-2 text-gray-500 dark:text-gray-400 mt-1">
                      If you are unsure of how your app behaves, we can help by doing a detailed UX audit that will
                      highlight
                      most of the issues in your product. From there, we can take it further and fix all issues.
@@ -35,10 +35,10 @@
          <div class="grid grid-flow-row-dense md:grid-cols-5 grid-cols-1">
             <div class="m-4 bg-transparent z-10 col-span-2 card">
                <div class="card p-6 rounded-md">
-                  <h5 class="text-amber-400">
-                     UX Consultation
+                  <h5 class="text-amber-400 flex items-center">
+                     <i class="fa-solid fa-u fa-lg pb-1 pe-0.5"></i>X Consultation
                   </h5>
-                  <p class="text-[15px] text-gray-500 dark:text-gray-400 mt-1">
+                  <p class="text-[15px] ps-2 border-s-2 text-gray-500 dark:text-gray-400 mt-1">
                      If you don’t know what kind of service to request from us, don’t worry. We can help and see what
                      fits
                      your business and your budget.
@@ -47,10 +47,10 @@
             </div>
             <div class="m-4 bg-transparent z-10 col-span-3">
                <div class="card p-6 rounded-md">
-                  <h5 class="text-amber-400">
-                     Front End Development
+                  <h5 class="text-amber-400 flex items-center">
+                     <i class="fa-solid fa-f fa-lg pb-1 "></i>ront End Development
                   </h5>
-                  <p class="text-[15px] text-gray-500 dark:text-gray-400 mt-1">
+                  <p class="text-[15px] ps-2 border-s-2 text-gray-500 dark:text-gray-400 mt-1">
                      We are Front End masters with a deep focus on HTML, CSS, JavaScript The result of our work is a
                      responsive,
                      accessible, and performant websites. Either you have the design ready and want us to code it, or
@@ -64,10 +64,11 @@
          <div class="grid grid-flow-row-dense md:grid-cols-5 grid-cols-1">
             <div class="m-4 bg-transparent z-10 col-span-3">
                <div class="card p-6 rounded-md">
-                  <h5 class="text-amber-400">
-                     Mobile Apps Design
+                  <h5 class="text-amber-400 flex items-center">
+                     <i class="fa-solid fa-m fa-lg pb-1 pe-0.5"></i>
+                     obile Apps Design
                   </h5>
-                  <p class="text-[15px] text-gray-500 dark:text-gray-400 mt-1">
+                  <p class="text-[15px] ps-2 border-s-2 text-gray-500 dark:text-gray-400 mt-1">
                      To reach more customers and the goals of your business, a mobile application is necessary these
                      days.
                      We
@@ -77,10 +78,10 @@
             </div>
             <div class="m-4 bg-transparent col-span-2 z-10">
                <div class="card p-6 rounded-md">
-                  <h5 class="text-amber-400">
-                     Responsive Web Design
+                  <h5 class="text-amber-400 flex items-center">
+                     <i class="fa-solid fa-r fa-lg pb-1 pe-0.5"></i>esponsive Web Design
                   </h5>
-                  <p class="text-[15px] text-gray-500 dark:text-gray-400 mt-1">
+                  <p class="text-[15px] ps-2 border-s-2 text-gray-500 dark:text-gray-400 mt-1">
                      We leverage the concept of mobile-first design. Through our work, we focus on designing an
                      experience
                      that works across different screen sizes.

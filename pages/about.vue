@@ -1,5 +1,5 @@
 <template>
-  <div class="custom-section h-screen overflow-scroll">
+  <div class="custom-section h-screen overflow-scroll absolute z-10 left-0 right-0">
     <div class="mt-3 absolute z-10 md:w-11/12 w-10/12 ">
       <div class="flex lg:flex-row max-lg:flex-col-reverse items-center">
         <div class="basis-1/2 max-lg:basis-3/4 text-white ">
@@ -24,7 +24,7 @@
             </div>
           </h1>
           <div class="text-sm md:text-base ">
-            <p class="p-3 font-medium leading-8">
+            <p class="p-3 font-medium">
               Fueled by a deep passion for creating seamless and visually captivating user experiences,
               I specialize as
               a front-end developer in crafting responsive, accessible, and high-performing web applications tailored to
@@ -48,7 +48,8 @@
           </div>
         </div>
         <div class="basis-1/2 max-lg:basis-1/4 flex justify-center items-center slide-in-right z-0">
-          <img class="w-5/12 max-w-min rounded-full max-md:m-5 bg-stone-500 user mb-6" src="../assets/image/p.jpg" />
+          <!-- <img class="w-5/12 max-w-min rounded-full max-md:m-5 bg-stone-500 user mb-6" src="../assets/image/p.jpg" /> -->
+          <img class="avater-img xl:w-5/12 lg:w-7/12 md:w-5/12 w-8/12 max-w-min rounded-full max-lg:m-5" src='../assets/image/img2.png' />
         </div>
       </div>
       <!-- <h2 class="text-center font-semibold text-6xl text-white mb-4 mt-10 md:mt-10 lg:mt-0">
@@ -62,7 +63,7 @@
           </p>
           <template v-for="technicalSkill in technicalSkills" :key="technicalSkill.name">
             <p class="label absolute text-sm md:text-base text-cool-300">
-              <span class="font-bold">
+              <span class="font-bold px-1">
                 {{ technicalSkill.name }}
               </span>
             </p>
@@ -76,7 +77,7 @@
           </p>
           <template v-for="personalSkill in personalSkills" :key="personalSkill.name">
             <p class="label absolute text-xs md:text-base text-cool-300">
-              <span class="font-bold">
+              <span class="font-bold px-1">
                 {{ personalSkill.name }}
               </span>
             </p>
@@ -115,4 +116,39 @@ const personalSkills = ref([
 ]);
 </script>
 
-<style></style>
+<style>
+.avater-img {
+  --s: 10%;
+  /* image size */
+  --b: 6px;
+  /* border thickness */
+  --c: #e9ecef;
+  /* border color */
+  --cb: #e9ecef;
+  /* background color */
+  --f: 1;
+  /* initial scale */
+
+
+  aspect-ratio: 1;
+  padding-top: calc(var(--s)/5);
+  cursor: pointer;
+  border-radius: 0 0 999px 999px;
+  --_g: 50%/calc(100%/var(--f)) 100% no-repeat content-box;
+  --_o: calc((1/var(--f) - 1)*var(--s)/2 - var(--b));
+
+  background:
+    radial-gradient(circle closest-side,
+      var(--cb) calc(99% - var(--b)), var(--c) calc(100% - var(--b)) 99%, #0000) var(--_g);
+  -webkit-mask:
+    linear-gradient(#000 0 0) no-repeat 50% calc(1px - var(--_o)) / calc(100%/var(--f) - 2*var(--b) - 2px) 50%,
+    radial-gradient(circle closest-side, #000 99%, #0000) var(--_g);
+  transform: scale(var(--f));
+  transition: .5s;
+}
+
+.avater-img:hover {
+  --f: 1.3;
+  /* hover scale */
+}
+</style>

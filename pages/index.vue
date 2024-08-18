@@ -1,13 +1,15 @@
 <template>
+
   <div
     class="custom-section h-screen uppercase lg:text-4xl md:text3xl sm:text2xl text-white flex justify-center items-center flex-col overflow-scroll">
     <div class="w-fit space-y-6 font-bold">
-      <div class="showup text-center">ABDULLAH MOHAMED</div>
+
+      <div class="showup text-center tracking-widest">ABDULLAH MOHAMED</div>
       <p class="slogan mx-auto w-fit">
         front-end NUXT.JS
       </p>
       <div class="slidein text-center">
-        <p class="m-0 ps-7" style="letter-spacing: .6em;">developer</p>
+        <p class="my-0 mx-auto" style="letter-spacing: .6em;">developer</p>
       </div>
     </div>
   </div>
@@ -88,4 +90,5 @@
   from, to { border-color: #39F; }
   100% { border-color: transparent; }
 }
+
 </style>
