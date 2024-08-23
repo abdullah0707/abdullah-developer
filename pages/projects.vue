@@ -17,9 +17,9 @@
       <label for="vue">
         <span style="mix-blend-mode: difference"> vue </span>
       </label>
-      <input class="checkbox-fullter" id="fullter" type="radio" name="checkbox" />
-      <label for="fullter">
-        <span style="mix-blend-mode: difference"> Fullter </span>
+      <input class="checkbox-flutter" id="flutter" type="radio" name="checkbox" />
+      <label for="flutter">
+        <span style="mix-blend-mode: difference"> flutter </span>
       </label>
       <div class="seperator"></div>
       <!-- project  cards-->
@@ -34,18 +34,20 @@
               <div class="movie-card__overlay rounded-tl-2xl rounded-tr-2xl sm:rounded-bl-2xl sm:rounded-tr-none h-72">
               </div>
               <div class="movie-card__content h-full flex justify-center">
-                <div class="movie-card__header text-center">
-                  <h1 class="movie-card__title text-2xl font-medium">
+                <div
+                  class="movie-card__header w-full max-w-80 text-wrap text-center py-3 px-3 rounded-t-3xl sm:rounded-tr-none sm:rounded-s-3xl bg-current shadow shadow-cool-400 border-yellow-400 border-2 sm:border-e-0 sm:border-b-2 border-b-0 opacity-80">
+                  <h1 class="movie-card__title text-lg font-bold font-header text-black ">
                     Photographer
                   </h1>
-                  <p class="movie-card__desc text-sm py-10 font-medium">
+                  <p class="movie-card__desc text-sm py-10 px-9 font-semibold text-black">
                     Photographer's portfolio
                   </p>
-                  <a href="https://abdullah0707.github.io/Project-photographer/" target="_blank" class="learn-more">
+                  <a href="https://abdullah0707.github.io/Project-photographer/" target="_blank"
+                    class="learn-more text-black">
                     <span class="circle" aria-hidden="true">
                       <span class="icon arrow"></span>
                     </span>
-                    <span class="button-text text-sm tracking-wider">
+                    <span class="button-text text-sm tracking-wider text-black">
                       Reference
                     </span>
                   </a>
@@ -63,18 +65,19 @@
               <div class="movie-card__overlay rounded-tl-2xl rounded-tr-2xl sm:rounded-bl-2xl sm:rounded-tr-none h-72">
               </div>
               <div class="movie-card__content h-full flex justify-center">
-                <div class="movie-card__header text-center">
-                  <h1 class="movie-card__title text-2xl font-medium">
+                <div
+                  class="movie-card__header w-full max-w-80 text-wrap text-center py-3 px-3 rounded-t-3xl sm:rounded-tr-none sm:rounded-s-3xl bg-current shadow shadow-cool-400 border-yellow-400 border-2 sm:border-e-0 sm:border-b-2 border-b-0 opacity-80">
+                  <h1 class="movie-card__title text-lg font-bold font-header text-black ">
                     Music
                   </h1>
-                  <p class="movie-card__desc text-sm py-10 font-medium">
+                  <p class="movie-card__desc text-sm py-10 px-14 mx-1 font-semibold text-black">
                     Music's portfolio
                   </p>
-                  <a href="https://abdullah0707.github.io/Project-Music/" target="_blank" class="learn-more">
+                  <a href="https://abdullah0707.github.io/Project-Music/" target="_blank" class="learn-more text-black">
                     <span class="circle" aria-hidden="true">
                       <span class="icon arrow"></span>
                     </span>
-                    <span class="button-text text-sm tracking-wider">
+                    <span class="button-text text-sm tracking-wider text-black">
                       Reference
                     </span>
                   </a>
@@ -92,18 +95,20 @@
               <div class="movie-card__overlay rounded-tl-2xl rounded-tr-2xl sm:rounded-bl-2xl sm:rounded-tr-none h-72">
               </div>
               <div class="movie-card__content h-full flex justify-center">
-                <div class="movie-card__header text-center">
-                  <h1 class="movie-card__title text-2xl font-medium">
+                <div
+                  class="movie-card__header w-full max-w-80 text-wrap text-center py-3 px-3 rounded-t-3xl sm:rounded-tr-none sm:rounded-s-3xl bg-current shadow shadow-cool-400 border-yellow-400 border-2 sm:border-e-0 sm:border-b-2 border-b-0 opacity-80">
+                  <h1 class="movie-card__title text-lg font-bold font-header text-black ">
                     Studio
                   </h1>
-                  <p class="movie-card__desc text-sm py-10 font-medium">
+                  <p class="movie-card__desc text-sm py-10 px-14 font-semibold text-black">
                     Studio's portfolio
                   </p>
-                  <a href="https://abdullah0707.github.io/Project-Studio/" target="_blank" class="learn-more">
+                  <a href="https://abdullah0707.github.io/Project-Studio/" target="_blank"
+                    class="learn-more text-black">
                     <span class="circle" aria-hidden="true">
                       <span class="icon arrow"></span>
                     </span>
-                    <span class="button-text text-sm tracking-wider">
+                    <span class="button-text text-sm tracking-wider text-black">
                       Reference
                     </span>
                   </a>
@@ -122,18 +127,19 @@
               <div class="movie-card__overlay rounded-tl-2xl rounded-tr-2xl sm:rounded-bl-2xl sm:rounded-tr-none h-72">
               </div>
               <div class="movie-card__content h-full flex justify-center">
-                <div class="movie-card__header text-center">
-                  <h1 class="movie-card__title text-2xl font-medium">
+                <div
+                  class="movie-card__header w-full max-w-80 text-wrap text-center py-3 px-3 rounded-t-3xl sm:rounded-tr-none  sm:rounded-s-3xl bg-current shadow shadow-cool-400 border-yellow-400 border-2 sm:border-e-0 sm:border-b-2 border-b-0 opacity-80">
+                  <h1 class="movie-card__title text-lg font-bold font-header text-black ">
                     Payment
                   </h1>
-                  <p class="movie-card__desc text-sm py-10 font-medium">
+                  <p class="movie-card__desc text-sm pt-10 pb-9 px-2 font-semibold text-black">
                     Payments management system
                   </p>
-                  <a href="#open-modal-payment" class="learn-more">
+                  <a href="#open-modal-payment" class="learn-more text-black">
                     <span class="circle" aria-hidden="true">
                       <span class="icon arrow"></span>
                     </span>
-                    <span class="button-text text-sm tracking-wider">
+                    <span class="button-text text-sm tracking-wider text-black">
                       Reference
                     </span>
                   </a>
@@ -163,18 +169,19 @@
               </div>
 
               <div class="movie-card__content h-full flex justify-center">
-                <div class="movie-card__header text-center">
-                  <h1 class="movie-card__title text-2xl font-medium">
+                <div
+                  class="movie-card__header w-full max-w-80 text-wrap text-center py-3 px-3 rounded-t-3xl sm:rounded-tr-none  sm:rounded-s-3xl bg-current shadow shadow-cool-400 border-yellow-400 border-2 sm:border-e-0 sm:border-b-2 border-b-0 opacity-80">
+                  <h1 class="movie-card__title text-lg font-bold font-header text-black ">
                     Lawer
                   </h1>
-                  <p class="movie-card__desc text-sm py-10 font-medium">
+                  <p class="movie-card__desc text-sm pt-10 pb-9 px-8 font-semibold text-black">
                     Law management system
                   </p>
-                  <a href="#open-modal-lawer" class="learn-more">
+                  <a href="#open-modal-lawer" class="learn-more text-black ">
                     <span class="circle" aria-hidden="true">
                       <span class="icon arrow"></span>
                     </span>
-                    <span class="button-text text-sm tracking-wider">
+                    <span class="button-text text-sm tracking-wider text-black ">
                       Reference
                     </span>
                   </a>
@@ -203,18 +210,19 @@
               <div class="movie-card__overlay rounded-tl-2xl rounded-tr-2xl sm:rounded-bl-2xl sm:rounded-tr-none h-72">
               </div>
               <div class="movie-card__content h-full flex md:justify-center">
-                <div class="movie-card__header w-4/6 text-wrap text-center">
-                  <h1 class="movie-card__title text-2xl font-medium">
+                <div
+                  class="movie-card__header w-full max-w-64 text-wrap text-center py-3 px-3 rounded-t-3xl sm:rounded-tr-none  sm:rounded-s-3xl bg-current shadow shadow-cool-400 border-yellow-400 border-2 sm:border-e-0 sm:border-b-2 border-b-0 opacity-80">
+                  <h1 class="movie-card__title text-lg font-bold font-header text-black ">
                     Buy Or Bye
                   </h1>
-                  <p class="movie-card__desc text-sm py-10 font-medium">
+                  <p class="movie-card__desc text-sm pt-8 pb-6 font-semibold text-black">
                     Shopping and competitions site withdraws
                   </p>
-                  <a href="https://buyorbye.com/ar" target="_blank" class="learn-more">
+                  <a href="https://buyorbye.com/ar" target="_blank" class="learn-more text-black">
                     <span class="circle" aria-hidden="true">
                       <span class="icon arrow"></span>
                     </span>
-                    <span class="button-text text-sm tracking-wider">
+                    <span class="button-text text-sm tracking-wider text-black">
                       Reference
                     </span>
                   </a>
@@ -232,18 +240,19 @@
               <div class="movie-card__overlay rounded-tl-2xl rounded-tr-2xl sm:rounded-bl-2xl sm:rounded-tr-none h-72">
               </div>
               <div class="movie-card__content h-full flex justify-center">
-                <div class="movie-card__header text-center">
-                  <h1 class="movie-card__title text-2xl font-medium">
+                <div
+                  class="movie-card__header w-full max-w-64 text-wrap text-center py-3 px-3 rounded-t-3xl sm:rounded-tr-none  sm:rounded-s-3xl bg-current shadow shadow-cool-400 border-yellow-400 border-2 sm:border-e-0 sm:border-b-2 border-b-0 opacity-80">
+                  <h1 class="movie-card__title text-lg font-bold font-header text-black ">
                     Belle
                   </h1>
-                  <p class="movie-card__desc text-sm py-10 font-medium">
+                  <p class="movie-card__desc text-sm pt-9 pb-8 px-3 font-semibold text-black">
                     E-commerce site for perfumes
                   </p>
                   <a href="https://belleksa.com/" target="_blank" class="learn-more">
                     <span class="circle" aria-hidden="true">
                       <span class="icon arrow"></span>
                     </span>
-                    <span class="button-text text-sm tracking-wider">
+                    <span class="button-text text-sm tracking-wider text-black">
                       Reference
                     </span>
                   </a>
@@ -260,18 +269,19 @@
               <div class="movie-card__overlay rounded-tl-2xl rounded-tr-2xl sm:rounded-bl-2xl sm:rounded-tr-none h-72">
               </div>
               <div class="movie-card__content h-full flex justify-center">
-                <div class="movie-card__header w-4/6 text-wrap text-center">
-                  <h1 class="movie-card__title text-lg font-medium">
+                <div
+                  class="movie-card__header w-full max-w-64 text-wrap text-center py-3 px-3 rounded-t-3xl sm:rounded-tr-none  sm:rounded-s-3xl bg-current shadow shadow-cool-400 border-yellow-400 border-2 sm:border-e-0 sm:border-b-2 border-b-0 opacity-80">
+                  <h1 class="movie-card__title text-md font-bold font-header text-black ">
                     جمعية حماية المستثمرين الأفراد
                   </h1>
-                  <p class="movie-card__desc text-sm py-8 font-medium">
+                  <p class="movie-card__desc text-sm pt-8 pb-6 font-semibold text-black">
                     Individual Investor Services Website in Saudi Arabia
                   </p>
                   <a href="https://iipa.org.sa/ar" target="_blank" class="learn-more">
                     <span class="circle" aria-hidden="true">
                       <span class="icon arrow"></span>
                     </span>
-                    <span class="button-text text-sm tracking-wider">
+                    <span class="button-text text-sm tracking-wider text-black">
                       Reference
                     </span>
                   </a>
@@ -289,18 +299,19 @@
               </div>
 
               <div class="movie-card__content h-full flex justify-center">
-                <div class="movie-card__header text-center">
-                  <h1 class="movie-card__title text-2xl font-medium">
+                <div
+                  class="movie-card__header  w-full max-w-64  text-wrap text-center py-3 px-3 rounded-t-3xl sm:rounded-tr-none  sm:rounded-s-3xl bg-current shadow shadow-cool-400 border-yellow-400 border-2 sm:border-e-0 sm:border-b-2 border-b-0 opacity-80">
+                  <h1 class="movie-card__title text-lg font-bold font-header text-black ">
                     One Meeting Rooms
                   </h1>
-                  <p class="movie-card__desc text-sm py-10 font-medium">
+                  <p class="movie-card__desc text-sm pt-8 pb-5 font-semibold text-black">
                     Meeting room management system
                   </p>
                   <a href="#open-modal-meeting" class="learn-more">
                     <span class="circle" aria-hidden="true">
                       <span class="icon arrow"></span>
                     </span>
-                    <span class="button-text text-sm tracking-wider">
+                    <span class="button-text text-sm tracking-wider text-black">
                       Reference
                     </span>
                   </a>
@@ -321,7 +332,7 @@
             </UCarousel>
           </div>
         </div>
-        <div class="project fullter absolute">
+        <div class="project flutter absolute">
           <h1 class='text-white font-bold text-7xl w-full h-full'>
             Soon
           </h1>
@@ -375,12 +386,18 @@ const meetings = [
 </script>
 
 <style>
-@import url("https://fonts.googleapis.com/css?family=Montserrat:300,400,700,800");
-@import url("https://fonts.googleapis.com/icon?family=Material+Icons");
-
+@import url('https://fonts.googleapis.com/css2?family=Cairo:wght@200..1000&display=swap');
 
 a {
   text-decoration: none;
+}
+
+.font-header {
+  font-family: "Cairo", sans-serif;
+  font-optical-sizing: auto;
+  font-style: normal;
+  font-variation-settings:
+    "slnt" 0;
 }
 
 .movie-card {
@@ -400,36 +417,43 @@ a {
   background-size: cover;
   background-repeat: no-repeat;
 }
+
 .movie-card[data-movie="Music"] {
   background-image: url("../assets/image/4.jpg");
   background-size: cover;
   background-repeat: no-repeat;
 }
+
 .movie-card[data-movie="Photographer"] {
   background-image: url("../assets/image/3.jpg");
   background-size: cover;
   background-repeat: no-repeat;
 }
+
 .movie-card[data-movie="Studio"] {
   background-image: url("../assets/image/2.jpg");
   background-size: cover;
   background-repeat: no-repeat;
 }
+
 .movie-card[data-movie="iipa"] {
   background-image: url("../assets/image/6.jpg");
   background-size: cover;
   background-repeat: no-repeat;
 }
+
 .movie-card[data-movie="Belle"] {
   background-image: url("../assets/image/10.png");
   background-size: cover;
   background-repeat: no-repeat;
 }
+
 .movie-card[data-movie="Meeting"] {
   background-image: url("../assets/image/8.png");
   background-size: cover;
   background-repeat: no-repeat;
 }
+
 .movie-card[data-movie="Buy_Or_Bye"] {
   background-image: url("../assets/image/5.jpg");
   background-size: cover;

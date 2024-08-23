@@ -22,7 +22,7 @@
     max-width: 95%;
   }
 }
-@media screen and (max-width: 600px) {
+@media screen and (max-width: 640px) {
   .movie-card {
     background-position: 50% 0%;
     background-size: cover;
@@ -35,9 +35,9 @@
   height: 100%;
   background: linear-gradient(
     to right,
-    rgba(42, 159, 255, 0.2) 0%,
-    #164e63 35%,
-    #083344 100%
+    rgba(42, 159, 255, 0) 0%,
+    #164e6300 5%,
+    #083344f1 100%
   );
   background-blend-mode: multiply;
   position: absolute;
@@ -46,12 +46,12 @@
   right: 0;
   left: 0;
 }
-@media screen and (max-width: 600px) {
+@media screen and (max-width: 640px) {
   .movie-card__overlay {
     background: linear-gradient(
       to bottom,
       rgba(42, 159, 255, 0.2) 0%,
-      #164e63 35%,
+      #164e6300 65%,
       #083344 100%
     );
   }
@@ -62,7 +62,7 @@
   width: 100%;
   max-width: 130px;
 }
-@media screen and (max-width: 600px) {
+@media screen and (max-width: 640px) {
   .movie-card__share {
     display: block;
     width: 100%;
@@ -70,54 +70,41 @@
 }
 
 .movie-card__content {
-  width: 100%;
-  max-width: 370px;
+  /* width: 100%; */
+  /* max-width: 370px; */
   display: flex;
   align-items: flex-end;
   flex-direction: column;
   position: relative;
   float: right;
-  padding-right: 1.2em;
-  padding-bottom: 1em;
+  /* padding-right: 1.2em; */
+  /* padding-bottom: 1em; */
 }
 @media screen and (max-width: 1000px) {
   .movie-card__content {
     width: 50%;
   }
 }
-@media screen and (max-width: 600px) {
+@media screen and (max-width: 640px) {
   .movie-card__content {
-    margin: 8em 0em;
+    /* margin: 8em 0em; */
     width: 100%;
     float: inherit;
     max-width: 100%;
     padding: 0 1em;
     justify-content: end;
     align-items: center;
-    height: fit-content;
+    height: 100%;
         gap: 7em;
   }
 }
-.movie-card__header {
-  margin-top: 2em;
-}
+
 .movie-card__title {
-  color: #ffffff;
   margin-bottom: 0.25em;
   opacity: 0.75;
 }
-.movie-card__info {
-  text-transform: uppercase;
-  letter-spacing: 2px;
-  font-size: 0.8em;
-  color: #2a9fff;
-  line-height: 1;
-  margin: 0;
-  font-weight: 700;
-  opacity: 0.5;
-}
+
 .movie-card__desc {
-  font-weight: 300;
   opacity: 0.84;
 }
 
@@ -788,7 +775,6 @@ form .user-box input:valid ~ select {
   bottom: 0;
   padding: 0.6rem 0;
   margin: 0 0 0 1.85rem;
-  color: #ffffff;
   font-weight: 700;
   line-height: 1.6;
   text-align: center;
