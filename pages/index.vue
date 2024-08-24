@@ -59,9 +59,6 @@ definePageMeta({
   animation: showup 7s;
 }
 
-.slidein {
-  animation: slidein 7s;
-}
 
 @keyframes showup {
   0% {
@@ -69,18 +66,6 @@ definePageMeta({
   }
 
   100% {
-    opacity: 1;
-  }
-}
-
-@keyframes slidein {
-  0% {
-    margin-left: -300%;
-    opacity: 0;
-  }
-
-  100% {
-    margin-left: 0%;
     opacity: 1;
   }
 }
