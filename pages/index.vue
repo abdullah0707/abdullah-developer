@@ -12,24 +12,24 @@
         <p class="my-0 mx-auto" style="letter-spacing: .6em;">developer</p>
       </div>
     </div>
-    <div class="container-share text-lg">
-      <p class=" text-center mb-3">
+    <div class="container-share text-sm sm:text-lg">
+      <p class=" text-center mb-3 text-lg">
         Share
         <hr class="w-7 border-yellow-400 border-2 rounded-r-lg text-center mb-3 mx-auto">
         <i class="fa-solid fa-angles-down animate-bounce"></i>
       </p>
-      <p class="flex gap-5">
+      <p class="flex sm:gap-4 gap-2">
         <SocialShare network="email" :styled="false" :label="false" class="hover:text-yellow-400" />
         <span class="relative flex ">
           <span class="animate-ping absolute inline-flex h-full w-full bg-yellow-400 opacity-75 rounded-full"></span>
           <span class="w-1">|</span>
         </span>
         <SocialShare network="whatsapp" :styled="false" :label="false" class="hover:text-yellow-400 " />
-        <span class="relative flex ">
+        <span class="relative flex text-md">
           <span class="animate-ping absolute inline-flex h-full w-full bg-yellow-400 opacity-75 rounded-full"></span>
           <span class="w-1">|</span>
         </span>
-        <SocialShare network="facebook" :styled="false" :label="false" class="hover:text-yellow-400" />
+        <SocialShare network="facebook" :styled="false" :label="false" class="hover:text-yellow-400 " />
         <span class="relative flex ">
           <span class="animate-ping absolute inline-flex h-full w-full bg-yellow-400 opacity-75 rounded-full"></span>
           <span class="w-1">|</span>

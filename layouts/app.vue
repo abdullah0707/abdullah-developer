@@ -22,23 +22,27 @@
          <ul class="_links-list">
             <li class="_social-link">
                <NuxtLink to="https://www.facebook.com/abdullah.mohammed93" target="_blank">
-                  <i class="fa-brands fa-square-facebook text-blue-800"></i>
+                  <i class="fa-brands fa-square-facebook text-blue-800 fa-1x"></i>
                </NuxtLink>
             </li>
             <li class="_social-link">
                <NuxtLink to="https://www.linkedin.com/in/abdullah-mohammed-b47234121/" target="_blank"><i
-                     class="fa-brands fa-linkedin text-blue-900"></i></NuxtLink>
+                     class="fa-brands fa-linkedin text-blue-900 fa-1x"></i></NuxtLink>
             </li>
             <li class="_social-link">
-               <NuxtLink to="https://github.com/abdullah0707" target="_blank"><i class="fa-brands fa-github"></i>
+               <NuxtLink to="https://github.com/abdullah0707" target="_blank">
+                  <i class="fa-brands fa-github fa-1x"></i>
                </NuxtLink>
             </li>
             <li class="_social-link">
-               <NuxtLink to="https://wa.me/qr/ZPSAINJL44YEP1" target="_blank"><i
-                     class="fa-brands fa-square-whatsapp text-green-700"></i></NuxtLink>
+               <NuxtLink to="https://wa.me/qr/ZPSAINJL44YEP1" target="_blank">
+                  <i class="fa-brands fa-square-whatsapp text-green-700 fa-1x"></i>
+               </NuxtLink>
             </li>
             <li class="_social-link">
-               <NuxtLink to="tel:+201094242767"><i class="fa-solid fa-square-phone text-cyan-700"></i></NuxtLink>
+               <NuxtLink to="tel:+201094242767">
+                  <i class="fa-solid fa-square-phone text-cyan-700 fa-1x"></i>
+               </NuxtLink>
             </li>
          </ul>
       </div>
