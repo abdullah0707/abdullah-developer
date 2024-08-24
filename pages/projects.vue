@@ -463,20 +463,3 @@ a {
 
 
 
-<!-- <div class="container-share gap-2 text-sm">
-                    <i>
-                      <SocialShare network="email" :styled="false" :label="false" />
-                    </i>
-                    <i>
-                      <SocialShare network="whatsapp" :styled="false" :label="false" />
-                    </i>
-                    <i>
-                      <SocialShare network="facebook" :styled="false" :label="false" />
-                    </i>
-                    <i>
-                      <SocialShare network="twitter" :styled="false" :label="false" />
-                    </i>
-                    <i>
-                      <SocialShare network="linkedin" :styled="false" :label="false" />
-                    </i>
-                  </div> -->

@@ -94,7 +94,7 @@
 </template>
 
 <script setup>
-
+import { onMounted } from 'vue'
 useHead({
    titleTemplate: "%s Service",
 });
@@ -102,7 +102,10 @@ useHead({
 definePageMeta({
    layout: 'app'
 })
-onMounted(() => {
+
+
+
+onMounted(async () => {
    // child.value will hold an instance of <Child />
    const handleOnMouseMove = e => {
       const { currentTarget: target } = e;
