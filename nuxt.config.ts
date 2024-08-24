@@ -6,7 +6,7 @@ export default ({
       global: true,
    },
    socialShare: {
-      baseUrl: 'https://abdullah-developer.pages.dev/projects' // required!
+      baseUrl: 'https://abdullah-developer.pages.dev/' // required!
       // other optional module options
    },
    nitor: {

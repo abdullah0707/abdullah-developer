@@ -13,7 +13,7 @@
       </div>
     </div>
     <div class="container-share text-lg">
-      <p class=" text-center">
+      <p class=" text-center mb-3">
         Share
         <hr class="w-7 border-yellow-400 border-2 rounded-r-lg text-center mb-3 mx-auto">
         <i class="fa-solid fa-angles-down animate-bounce"></i>
