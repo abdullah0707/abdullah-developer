@@ -8,7 +8,7 @@
       <p class="slogan mx-auto w-fit">
         front-end NUXT.JS
       </p>
-      <div class="slidein text-center">
+      <div class="showup text-center">
         <p class="my-0 mx-auto" style="letter-spacing: .6em;">developer</p>
       </div>
     </div>
@@ -17,8 +17,8 @@
         <span class="px-2 mb-3">
           Share
           <hr class="w-7 border-yellow-400 border-2 rounded-r-lg text-center mb-3">
+          <i class="fa-solid fa-angles-down animate-bounce"></i>
         </span>
-        <i class="fa-solid fa-angles-down animate-bounce"></i>
       </p>
       <p class="flex gap-5">
         <SocialShare network="email" :styled="false" :label="false" class="hover:text-yellow-400" />
