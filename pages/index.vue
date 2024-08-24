@@ -13,12 +13,10 @@
       </div>
     </div>
     <div class="container-share text-lg">
-      <p class="flex justify-center text-center">
-        <span class="px-2 mb-3">
-          Share
-          <hr class="w-7 border-yellow-400 border-2 rounded-r-lg text-center mb-3">
-          <!-- <i class="fa-solid fa-angles-down animate-bounce"></i> -->
-        </span>
+      <p class=" text-center">
+        Share
+        <hr class="w-7 border-yellow-400 border-2 rounded-r-lg text-center mb-3 mx-auto">
+        <i class="fa-solid fa-angles-down animate-bounce"></i>
       </p>
       <p class="flex gap-5">
         <SocialShare network="email" :styled="false" :label="false" class="hover:text-yellow-400" />
