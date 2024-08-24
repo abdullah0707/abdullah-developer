@@ -5,7 +5,7 @@
     <div class=" space-y-6 font-bold w-fit">
 
       <div class="showup text-center tracking-widest">ABDULLAH MOHAMED</div>
-      <p class="slogan mx-auto w-fit">
+      <p class="slogan mx-auto w-fit mb-0">
         front-end NUXT.JS
       </p>
       <div class="showup text-center">
@@ -17,7 +17,7 @@
         <span class="px-2 mb-3">
           Share
           <hr class="w-7 border-yellow-400 border-2 rounded-r-lg text-center mb-3">
-          <i class="fa-solid fa-angles-down animate-bounce"></i>
+          <!-- <i class="fa-solid fa-angles-down animate-bounce"></i> -->
         </span>
       </p>
       <p class="flex gap-5">
