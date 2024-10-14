@@ -132,9 +132,7 @@ function onCallback() {
 async function SubmitForm(form) {
   waiting.value = true;
   Email.send({
-    Host: "smtp.elasticemail.com",
-    Username: "abdullahelgammal25@gmail.com",
-    Password: "B029B2FF0363704FC6D2DB25949CE702253F",
+    SecureToken: "0bad18f6-3f3b-4337-803e-f7b90d63d1c5",
     To: 'abdullahelgammal25@gmail.com',
     From: 'abdullahelgammal25@gmail.com',
     Subject: form.subject,
