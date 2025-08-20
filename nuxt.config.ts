@@ -46,6 +46,8 @@ export default ({
          ],
          script: [
             { src: 'https://smtpjs.com/v3/smtp.js' },
+            { src: 'https://cdn.botpress.cloud/webchat/v3.2/inject.js' },
+            { src: 'https://files.bpcontent.cloud/2025/08/20/07/20250820074314-2DRGOL57.js' },
             { src: '/animet.js', tagPosition: 'bodyClose' },
          ]
       },
