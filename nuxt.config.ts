@@ -1,6 +1,10 @@
 // https://nuxt.com/docs/api/configuration/nuxt-config
 export default ({
    modules: ["@nuxt/ui", "@stefanobartoletti/nuxt-social-share"],
+   ssr: true,
+  nitro: {
+    preset: 'cloudflare-pages'
+  },
 
    ui: {
       global: true,
