@@ -50,8 +50,7 @@ export default ({
          ],
          script: [
             { src: 'https://smtpjs.com/v3/smtp.js' },
-            { src: 'https://cdn.botpress.cloud/webchat/v3.2/inject.js', async: true, defer: true, 'data-bot-id': '63f4f3f2d1c6e9001f3b2e5a' },
-            { src: 'https://files.bpcontent.cloud/2025/08/20/07/20250820074314-2DRGOL57.js', async: true, defer: true },
+            { src: 'https://static.getbutton.io/widget/bundle.js?id=CTOmZ', async: true, defer: true },
             { src: '/animet.js', tagPosition: 'bodyClose' },
          ]
       },
